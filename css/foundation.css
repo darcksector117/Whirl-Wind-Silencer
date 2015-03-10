@@ -3970,6 +3970,7 @@ blockquote p {
   visibility: hidden;
   display: none;
   position: absolute;
+  clear:  both;
   z-index: 1005;
   width: 100vw;
   top: 0;
