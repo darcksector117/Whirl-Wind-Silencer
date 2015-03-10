@@ -6145,7 +6145,15 @@ div{
 }
 h1{
   text-align: center;
-  color:#FFFFFF;
+}
+h2{
+  color: #FFFFFF;
+}
+h3{
+  color: #FFFFFF;
+}
+h4{
+  color: #FFFFFF;
 }
 #titulo{
   font-family: Arial;
@@ -6188,4 +6196,5 @@ p{
   width: 100%;
   height: 10%;
   background-color: #005252;
+  clear: both;
 }
