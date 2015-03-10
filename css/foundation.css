@@ -3968,9 +3968,8 @@ blockquote p {
 
 .reveal-modal, dialog {
   visibility: hidden;
-  display: none;
+  display: block;
   position: absolute;
-  clear:  both;
   z-index: 1005;
   width: 100vw;
   top: 0;
