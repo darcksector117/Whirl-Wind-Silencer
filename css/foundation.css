@@ -55,7 +55,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #4C0011;
+  background: #FFFFFF;
   color: #FFFFFF;
   padding: 0;
   margin: 0;
@@ -6137,8 +6137,23 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+
+
+div{
+  border-radius: 10px;
+}
 h1{
+  text-align: center;
   color:#FFFFFF;
+}
+#titulo{
+  font-family: Arial;
+  font-size: 4em;
+}
+#lema{
+  font-family: cursive;
+  font-size: 1em;
 }
 p{
   color:black;
@@ -6147,4 +6162,30 @@ p{
   text-align: center;
   clear: both;
   padding: 50px;
+}
+#problema{
+  background-color: #4C0011;
+  color: #FFFFFF;
+}
+#eproblema{
+  border: dashed 3px #4C0011;
+}
+#solucion{
+  background-color: #21004C;
+  color: #FFFFFF;
+}
+#esolucion{
+  border: solid 3px #21004C;
+}
+#resumen{
+  background-color: #309E2F;
+  color: #FFFFFF;
+}
+#eresumen{
+  border: dashed 3px #309E2F;
+}
+#salida{
+  width: 100%;
+  height: 10%;
+  background-color: #005252;
 }
