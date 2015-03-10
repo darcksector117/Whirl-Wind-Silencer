@@ -6142,6 +6142,7 @@ th.hide-for-touch {
 
 div{
   border-radius: 10px;
+  display: inline-block;
 }
 h1{
   text-align: center;
@@ -6197,7 +6198,4 @@ p{
   height: 10%;
   background-color: #005252;
   clear: both;
-}
-.row{
-  display: block;
 }
