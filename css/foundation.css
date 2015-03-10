@@ -3955,7 +3955,7 @@ blockquote p {
     border-top-right-radius: 1000px; }
 
 .reveal-modal-bg {
-  position: absolute;
+  
   top: 0;
   bottom: 0;
   left: 0;
@@ -6142,7 +6142,6 @@ th.hide-for-touch {
 
 div{
   border-radius: 10px;
-  display: inline-block;
 }
 h1{
   text-align: center;
