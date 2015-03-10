@@ -3955,7 +3955,7 @@ blockquote p {
     border-top-right-radius: 1000px; }
 
 .reveal-modal-bg {
-  
+
   top: 0;
   bottom: 0;
   left: 0;
@@ -3969,7 +3969,7 @@ blockquote p {
 .reveal-modal, dialog {
   visibility: hidden;
   display: none;
-  position: absolute;
+
   z-index: 1005;
   width: 100vw;
   top: 0;
@@ -4058,7 +4058,7 @@ blockquote p {
   .reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
     font-size: 2.5rem;
     line-height: 1;
-    position: absolute;
+    
     top: 0.625rem;
     right: 1.375rem;
     color: #AAAAAA;
@@ -6196,5 +6196,9 @@ p{
   width: 100%;
   height: 10%;
   background-color: #005252;
+  clear: both;
+}
+#videoModal{
+  display: block;
   clear: both;
 }
