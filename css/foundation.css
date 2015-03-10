@@ -3968,7 +3968,7 @@ blockquote p {
 
 .reveal-modal, dialog {
   visibility: hidden;
-  display: block;
+  display: none;
   position: absolute;
   z-index: 1005;
   width: 100vw;
@@ -6197,4 +6197,7 @@ p{
   height: 10%;
   background-color: #005252;
   clear: both;
+}
+.row{
+  display: block;
 }
