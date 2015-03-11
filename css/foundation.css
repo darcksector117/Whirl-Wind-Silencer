@@ -6169,7 +6169,6 @@ p{
 #imagen{
   text-align: center;
   clear: both;
-  padding: 50px;
 }
 #problema{
   background-color: #4C0011;
@@ -6201,4 +6200,7 @@ p{
 #videoModal{
   display: block;
   clear: both;
+}
+.example-orbit{
+  text-align: center;
 }
