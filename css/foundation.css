@@ -6139,21 +6139,35 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 
-
+body{
+  background-image: url("fondo.png");
+}
 div{
   border-radius: 10px;
 }
 h1{
   text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: Verdana;
 }
 h2{
-  color: #FFFFFF;
+  color: #000000;
+  font-size: 3em;
+  font-weight: bold;
+  font-style: Verdana;
 }
 h3{
-  color: #FFFFFF;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: Verdana;
 }
 h4{
-  color: #FFFFFF;
+  color: #000000;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: Verdana;
 }
 #titulo{
   font-family: Arial;
@@ -6164,32 +6178,48 @@ h4{
   font-size: 1em;
 }
 p{
+  font-style: Times;
   color:black;
+  font-size: 1em;
 }
-#imagen{
-  text-align: center;
-  clear: both;
+li{
+  font-style: Times;
+  color:black;
+  font-size: 1em;
+}
+.imagen{
+  background-size: 50% 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 #problema{
   background-color: #4C0011;
-  color: #FFFFFF;
+  color: #000000;
 }
 #eproblema{
-  border: dashed 3px #4C0011;
+  border: solid 3px #4C0011;
 }
 #solucion{
   background-color: #21004C;
-  color: #FFFFFF;
+  color: #000000;
 }
 #esolucion{
   border: solid 3px #21004C;
 }
 #resumen{
   background-color: #309E2F;
-  color: #FFFFFF;
+  color: #000000;
 }
 #eresumen{
   border: dashed 3px #309E2F;
+}
+#else{
+  background-color: #008585;
+  color: #000000;
+}
+#eelse{
+  border: dashed 3px #008585;
 }
 #salida{
   width: 100%;
