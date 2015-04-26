@@ -6168,7 +6168,7 @@ h4{
 .subtitulo{
   font-weight: bold;
   font-style: Verdana;
-  color:white;
+  color:black;
 }
 #titulo{
   font-family: Arial;
@@ -6239,5 +6239,5 @@ li{
   height: 75%;
 }
 *{
-  color:white;
+  color:black;
 }
