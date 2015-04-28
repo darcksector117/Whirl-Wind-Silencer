@@ -6186,12 +6186,6 @@ li{
   font-style: Times;
   font-size: 1em;
 }
-.imagen{
-  background-size: 50% 50%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
 #problema{
   background-color: #4C0011;
 }
@@ -6221,6 +6215,7 @@ li{
   height: 10%;
   background-color: #005252;
   clear: both;
+  color: #005252;
 }
 #videoModal{
   display: block;
@@ -6237,6 +6232,9 @@ li{
 #portada{
   width: 90%;
   height: 75%;
+}
+.arrow{
+  margin: 20px;
 }
 *{
   color:black;
